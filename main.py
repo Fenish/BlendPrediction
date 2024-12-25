@@ -58,6 +58,8 @@ if __name__ == "__main__":
 
     print(f"\nPredicted Dye Percentages: {predicted_output}")
     
+    # This is testing to check if my model is working and weights are correct
+    # This part won't be in the final code
     # Blend colors using the predicted percentages
     blend_test = blend_colors(red, green, blue, predicted_output[0], predicted_output[1], predicted_output[2])
     print(f"\nEXPECTED WEIGHTS BLEND COLOR: {test_input}")
